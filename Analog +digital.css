@@ -1,19 +1,43 @@
 .clock {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
   position: relative;
+  margin: 150px;
 }
 
 .digital {
+  width: 150px;
+  height: 50px;
   font-family: 'Arial', sans-serif;
   font-size: 2em;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #222;
+}
+.digital:hover{
+    background-color: #222;
+    color:#fff;
+    transition-duration: 2s;
+    transition-delay:0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 .analog {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   border: 2px solid #000;
 }
+
+.analog:hover{
+  background-color: #a52c2c;
+  color:#aec71e;
+  transition-duration: 2s;
+  transition-delay:0.5s;
+  transition-timing-function: ease-in-out;
+  border: 2px solid #000;
+  
+}
+
 
 .hour-hand, .minute-hand, .second-hand {
   position: absolute;
