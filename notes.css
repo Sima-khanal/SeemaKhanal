@@ -1,0 +1,32 @@
+.notes-app {
+  font-family: 'Arial', sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li button {
+  margin-left: 5px;
+  background-color: #f44336;
+}
