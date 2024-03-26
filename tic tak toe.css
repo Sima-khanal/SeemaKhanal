@@ -1,0 +1,27 @@
+.game-container {
+  font-family: 'Arial', sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #ddd;
+}
