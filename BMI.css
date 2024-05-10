@@ -1,0 +1,29 @@
+.calculator {
+  font-family: 'Arial', sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #222222;
+
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #06520a;
+  box-shadow: 0.2vh;
+  transition-duration: 2s;
+  transition-delay: 0.2s;
+
+}
